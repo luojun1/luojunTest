@@ -15,6 +15,7 @@
 		A82FF69221E7276700114EB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FF69121E7276700114EB9 /* main.m */; };
 		A82FF69C21E7276700114EB9 /* CustomTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FF69B21E7276700114EB9 /* CustomTestTests.m */; };
 		A82FF6A721E7276700114EB9 /* CustomTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FF6A621E7276700114EB9 /* CustomTestUITests.m */; };
+		A82FF6B621E733DA00114EB9 /* blockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FF6B521E733DA00114EB9 /* blockTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A82FF6A221E7276700114EB9 /* CustomTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82FF6A621E7276700114EB9 /* CustomTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTestUITests.m; sourceTree = "<group>"; };
 		A82FF6A821E7276700114EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A82FF6B421E733DA00114EB9 /* blockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blockTest.h; sourceTree = "<group>"; };
+		A82FF6B521E733DA00114EB9 /* blockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blockTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				A82FF68321E7276200114EB9 /* AppDelegate.m */,
 				A82FF68521E7276200114EB9 /* ViewController.h */,
 				A82FF68621E7276200114EB9 /* ViewController.m */,
+				A82FF6B421E733DA00114EB9 /* blockTest.h */,
+				A82FF6B521E733DA00114EB9 /* blockTest.m */,
 				A82FF68821E7276300114EB9 /* Main.storyboard */,
 				A82FF68B21E7276700114EB9 /* Assets.xcassets */,
 				A82FF68D21E7276700114EB9 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A82FF68721E7276200114EB9 /* ViewController.m in Sources */,
+				A82FF6B621E733DA00114EB9 /* blockTest.m in Sources */,
 				A82FF69221E7276700114EB9 /* main.m in Sources */,
 				A82FF68421E7276200114EB9 /* AppDelegate.m in Sources */,
 			);
