@@ -51,6 +51,7 @@ typedef int (^blk_t)(void);
 //    void (^blkInHeap)(void);
     blk = ^{ printf("1111\n");};//blk在栈里
 //    blkInHeap = Block_copy(blk);//blkInHeap在堆里
+    
 }
 
 @end
